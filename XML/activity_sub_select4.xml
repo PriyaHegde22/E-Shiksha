@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D3E7F8"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Select Subject"
+            android:textColor="#050505"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <TextView
+                    android:id="@+id/designan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:text="Design and Analysis of Algorithm"
+                    android:textColor="#0B0B0B"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="108dp"
+                    android:layout_height="112dp"
+                    app:srcCompat="@drawable/daa" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <TextView
+                    android:id="@+id/microcont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Microcontroler"
+                    android:textColor="#040404"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="108dp"
+                    android:layout_height="112dp"
+                    app:srcCompat="@drawable/micro" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <TextView
+                    android:id="@+id/datacom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Data                  Communication"
+                    android:textColor="#070707"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="108dp"
+                    android:layout_height="112dp"
+                    app:srcCompat="@drawable/dc" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <TextView
+                    android:id="@+id/objpro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Object Oriented Concepts"
+                    android:textColor="#020202"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="108dp"
+                    android:layout_height="112dp"
+                    app:srcCompat="@drawable/oopss" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="10dp">
+
+                <TextView
+                    android:id="@+id/opsyst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Operating System"
+                    android:textColor="#070707"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="108dp"
+                    android:layout_height="112dp"
+                    app:srcCompat="@drawable/opre" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
